@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <base target="_self">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
+     
+     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+      <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    
+  </head>
+  <body>
+
+    <div class="container" id="app">
+      
+    <!--- Frame kontak -->
+    
+    <div class="z-depth-4" novalidate="novalidate" style="max-width: 480px;margin: 40px auto;height:710px;" id="kontak">
+        <!-- <span class="black-text"></span> -->
+          <center><br>
+           <h6 style="font-size:18px;"><b>BUKU KERJA 1</b></h6>
+          </center>
+                        
+              <div class="container questionBox mb-4">
+              <div class="input-field col s12">
+                <h6>Nama Guru</h6>
+                <input style="color: black" type="text" id="d1" placeholder="Input nama">
+                <label for="input1"></label>
+              </div>
+
+                <div class="input-field col s12">
+                <h6>NIP</h6>
+                <input style="color: black" type="text" id="d2" placeholder="Input NIP">
+                <label for="input2"></label>
+              </div>
+
+                <div class="input-field col s12">
+                <h6>Mata Pelajaran</h6>
+                <input style="color: black" type="text" id="d3" placeholder="Input mata pelajaran">
+                <label for="input2"></label>
+              </div>
+
+               <div class="input-field">
+              <div class="col"> 
+              <h6>Semester</h6>
+              <select class="form-control" type="text" id="d4">
+              <option>Pilih semester</option>
+              <option>Ganjil</option>
+              <option>Genap</option>
+              <option>Ganjil & Genap</option>        
+              </select>        
+              </div>
+              </div>  
+
+              <div class="input-field">
+              <div class="col"> 
+              <h6>Nama File</h6>
+              <select class="form-control" type="text" id="d5">
+              <option>Pilih nama file</option>
+              <option>Analisis SKL</option>
+              <option>Analisis KI/KD</option>
+              <option>RPP</option>
+              <option>KKM</option>         
+              </select>        
+              </div>
+              </div>  
+          
+              <div class="input-field">
+              <div class="col"> 
+              <h6>Kelas</h6>
+              <select class="form-control" type="text" id="d6">
+              <option>Pilih kelas</option>
+              <option>X (Sepuluh)</option>
+              <option>XI (Sebelas)</option>
+              <option>XII (Dua belas)</option>         
+              </select>        
+              </div>
+              </div>  
+              
+             <div class="input-field">
+              <div class="col"> 
+              <h6>Tahun Pelajaran</h6>
+              <select class="form-control" type="text" id="d7">
+              <option>Pilih tahun pelajaran</option>
+              <option>2020/2021</option>
+              <option>2021/2022</option>
+              <option>2022/2023</option> 
+              <option>2023/2024</option>
+              <option>2024/2025</option>
+              <option>2025/2026</option>         
+              </select>        
+              </div>
+              </div>  
+     
+     <div class="input-field col s8">
+      <span style="font-size:15px; color:black;margin-left: 14px;">Upload File</span>
+      <form>
+        <input style="color:black;margin-left: 14px;" type="file" name="myFile" multiple>
+        <span id="resp-spinnerA" class="spinner-border spinner-grow-sm text-danger d-none" role="status" aria-hidden="true"></span>
+        <br>    
+        <input style="color:white; background-color:#990099; display: none" class="multi-lainnya" type="button" id="submitBtn" value="Upload" >     
+       </form>
+      </div>
+
+      <div id ="divMainButton2" style="display: none">
+       <center>  <button style="background-color: #4db6ac; color: white;" class="btn waves-effect waves-light" type="submit" name="mainButton2"><b>Kirim</b><i class="material-icons right">send</i> </button>          
+        <span id="resp-spinner5" class="spinner-grow spinner-grow-sm text-danger d-none" role="status" aria-hidden="true"></span>
+        <span id="resp-spinner6" class="spinner-grow spinner-grow-sm text-warning d-none" role="status" aria-hidden="true"></span>
+        <span id="resp-spinner7" class="spinner-grow spinner-grow-sm text-info d-none" role="status" aria-hidden="true"></span>
+       </center>
+      </div>           
+         
+  
+    
+    <!-- Frame-->      
+      
+    </div>
+    <center><footer class="footer">
+      <section class="container">
+        <p style="font-size:10px;">
+            <a target="_blank"
+            href="https://www.youtube.com/channel/UCqYS1K6NeLAHW7_95keEtUg" title="JNC Edukasi">JNC Eduaksi</a>
+            <a style="color:green;" target="_blank"
+            href="https://wa.me/6285247847462" title="WA"> | Whatsapp</a>
+            <a style="color:red;" target="_blank"
+            href="https://www.youtube.com/channel/UCqYS1K6NeLAHW7_95keEtUg" title="Youtube"> | Youtube</a>            
+            </p>
+      </section>
+    </footer></center>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <?!= include("page-js"); ?>
+  </body>
+</html>
